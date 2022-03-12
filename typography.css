@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+
+:root {
+    --fs-hero: clamp(4rem, 12vw, 12rem);
+    --fs-700: clamp(2rem, 7vw, 4rem);
+
+
+}
+
+
+
+/* utility classes for spacing */
+
+ .mg-15 {
+     margin:  1.5rem 0;
+ }
+
+
+ .divider > section {
+    border-bottom: 1px dashed var(--color-dark);
+    padding: 25px 0;
+  }
+  .divider > section:last-of-type {
+    border-bottom: none;
+  }
+
+
+/* ############### */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+.heading-primary,
+.heading-secondary {
+    font-family: 'Caveat', cursive;
+    line-height: 1.2;
+}
+
+.heading-primary {
+    font-size: 4rem;
+}
+
+.heading-secondary {
+    font-size: 5rem;
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+}
+
+/* ############## */
+.heading-primary--hero {
+    font-size:  var(--fs-hero);
+    font-weight: 700;
+}
+
+.heading-secondary--hero {
+    font-size: var(--fs-700);
+    font-weight: 500;
+}
+
+/* -------------------------------- */
+
+
+
