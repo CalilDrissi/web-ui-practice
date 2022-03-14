@@ -4,6 +4,13 @@
 
 
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
 :root {
     --fs-hero: clamp(4rem, 12vw, 12rem);
     --fs-700: clamp(2rem, 7vw, 4rem);
@@ -15,27 +22,14 @@
 
 /* utility classes for spacing */
 
- .mg-15 {
-     margin:  1.5rem 0;
+ .mg-bottom-md {
+     margin-bottom:  1rem;
  }
 
-
- .divider > section {
-    border-bottom: 1px dashed var(--color-dark);
-    padding: 25px 0;
-  }
-  .divider > section:last-of-type {
-    border-bottom: none;
-  }
 
 
 /* ############### */
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-}
 
 
 a:link {
